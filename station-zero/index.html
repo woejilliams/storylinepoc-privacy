@@ -48,7 +48,7 @@
   <body>
     <main>
       <h1>Station Zero: Privacy Policy</h1>
-      <p class="date">Effective October 21, 2026</p>
+      <p class="date">Effective November 10, 2026</p>
       <p>
         Station Zero is a prototype app for trying new news-app ideas for local TV stations with TEGNA staff. You don’t need
         to sign in or create an account to use it, and it does not sell or share any personal information. The app contains
@@ -69,7 +69,13 @@
         in and choose to add a photo, the app uses the camera or your photo library only for the photo you take or pick, and
         only after iOS asks your permission. Before it’s uploaded, the photo is resized and its location data removed; it
         then goes, with the credit and rights you enter and your email address, into your station’s photo library on
-        Supabase, where the image itself is public so the app can show it. If you allow notifications, Station Zero shows
+        Supabase, where the image itself is public so the app can show it. When a show or person page has a live survey
+        the station published, the app reads it, and if you vote it sends your answer, both to Supabase with a random
+        number the app creates for your device the first time (kept on the device), so the survey can show your vote and
+        each device votes once. The number isn’t linked to you, your Apple ID or any account. Your vote is counted, by
+        answer and by where it came from (the app, the station’s website, its survey page or TV), together with votes
+        from those places, and the station sees only the counts. If you share a survey, iOS passes a link to its page on
+        vote.stationzero.dev to the app you choose. If you allow notifications, Station Zero shows
         the demo notifications you ask for; they are scheduled on your device, not sent from a server. Anything you type
         into the app concept's demo forms (a question, a story, a tip) stays on your device and is discarded when you close
         the form; nothing is sent. The station you pick, your settings, any bookmarks you save while signed in and any feedback you enter with the Report button are saved only on your device and are removed when you delete the app. If you tap a link, such as a source article on a
