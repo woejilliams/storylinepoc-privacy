@@ -48,7 +48,7 @@
   <body>
     <main>
       <h1>Station Zero: Privacy Policy</h1>
-      <p class="date">Effective November 10, 2026</p>
+      <p class="date">Effective November 16, 2026</p>
       <p>
         Station Zero is a prototype app for trying new news-app ideas for local TV stations with TEGNA staff. You don’t need
         to sign in or create an account to use it, and it does not sell or share any personal information. The app contains
@@ -76,9 +76,14 @@
         answer and by where it came from (the app, the station’s website, its survey page or TV), together with votes
         from those places, and the station sees only the counts. If you share a survey, iOS passes a link to its page on
         vote.stationzero.dev to the app you choose. If you allow notifications, Station Zero shows
-        the demo notifications you ask for; they are scheduled on your device, not sent from a server. Anything you type
-        into the app concept's demo forms (a question, a story, a tip) stays on your device and is discarded when you close
-        the form; nothing is sent. The station you pick, your settings, any bookmarks you save while signed in and any feedback you enter with the Report button are saved only on your device and are removed when you delete the app. If you tap a link, such as a source article on a
+        the demo notifications you ask for; they are scheduled on your device, not sent from a server. When a show or
+        person is asking for questions, the Ask form sends your question to Supabase, with the first name and city if you
+        give them, whether your name may be said on air, and the same random device number, which lets the station limit
+        how many questions one device sends. Only the station’s team sees the questions. One may be read on air or posted
+        on the station’s social media, with your first name and city only if you said that’s OK, or answered in a person’s
+        FAQ in the app, without your name. When no one is asking for questions, anything you type into the app concept’s
+        other demo forms (a question, a story, a tip) stays on your device and is discarded when you close the form;
+        nothing is sent. The station you pick, your settings, any bookmarks you save while signed in and any feedback you enter with the Report button are saved only on your device and are removed when you delete the app. If you tap a link, such as a source article on a
         station's website (for example kare11.com or 9news.com) or a photo credit on Wikimedia Commons, it opens in your
         browser. If you share a story, iOS passes it to the app you choose. Those sites and apps have their own privacy
         policies. Because the app is distributed through Apple's TestFlight, Apple may share your tester name and email,
